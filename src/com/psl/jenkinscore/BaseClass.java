@@ -7,12 +7,12 @@ public class BaseClass {
 
 	@BeforeClass(alwaysRun = true)
 	public void initializeData(){
-		System.out.println("I am inside base initialize class");
+		System.out.println("I am inside base initialize class!!!");
 	}	
 	
 	@BeforeClass()
 	public void cleanupData(){
-		System.out.println("I am inside base cleanup class");
+		System.out.println("I am inside base cleanup class!!");
 	}		
 	
 }
